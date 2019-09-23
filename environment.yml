@@ -1,0 +1,22 @@
+name: django_test
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - django=2.2.1=*
+  - pip=19.2.2=*
+  - python=3.7.4=*
+  - jupyter
+  - beautifulsoup4
+  - lxml
+  - html5lib
+  - requests
+  - nb_conda
+  - rise
+  - sqlparse
+  - pip:
+    - ipywidgets
+    - jupyter_contrib_nbextensions
+    - graphviz
+    - pysed
+    - Werkzeug
