@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - django=2.2.1=*
+  - django-widget-tweaks
   - pip=19.2.2=*
   - python=3.7.4=*
   - jupyter
