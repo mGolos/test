@@ -2,7 +2,6 @@ name: django_test
 channels:
   - defaults
   - conda-forge
-  - cogsci
 dependencies:
   - django=2.2.1=*
   - django-widget-tweaks
@@ -15,7 +14,12 @@ dependencies:
   - nb_conda
   - rise
   - sqlparse
-  - pygame
+  - tensorflow
+  - pandas
+  - scikit-learn
+  - scipy
   - pip:
+    - torch
+    - pygame
     - ipywidgets
     - jupyter_contrib_nbextensions
