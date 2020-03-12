@@ -2,18 +2,19 @@ name: django_test
 channels:
   - defaults
   - conda-forge
+  - cogsci
 dependencies:
   - django=2.2.1=*
   - django-widget-tweaks
   - pip=19.2.2=*
   - python=3.7.4=*
   - jupyter
-  # - matplotlib
-  # - numpy
+  - pylab
   - requests
   - nb_conda
   - rise
   - sqlparse
+  - pygame
   - pip:
     - ipywidgets
     - jupyter_contrib_nbextensions
